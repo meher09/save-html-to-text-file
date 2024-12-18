@@ -14,6 +14,7 @@ removes unnecessary HTML tags and class attributes, and saves the cleaned conten
 - Saves two versions of the content:
   1. **With div and class attributes**: Contains all original HTML tags and classes.
   2. **Without div and class attributes**: Removes all `div` tags and class attributes, leaving only basic HTML elements like headings, images, lists, tables, etc.
+  3. **With div and class attributes Pretify Fomat**: Contains all original HTML tags and classes and output will be in pretty format.
 
 ## Requirements
 
