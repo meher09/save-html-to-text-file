@@ -1,5 +1,7 @@
 # HTML Content Extractor for Aston University Page
 
+<h2 align="center">This content is created for educational purposes only.</h2>
+
 This Python script extracts the main content from the following URL:
 [https://nwc.education/aston-university-official-agent-in-bangladesh/](https://nwc.education/aston-university-official-agent-in-bangladesh/),
 removes unnecessary HTML tags and class attributes, and saves the cleaned content into two separate text files:
@@ -44,6 +46,7 @@ pip install requests beautifulsoup4
 
    - `second_wpb_wrapper_content_with_div.txt` (content with `div` and `class` attributes)
    - `second_wpb_wrapper_cleaned_content.txt` (content without `div` and `class` attributes)
+   - ` second_wpb_wrapper_content_pretty.txt` (content witho `div` and `class` attributes and pretty format)
 
 4. The files will be saved in the same directory as the script.
 
